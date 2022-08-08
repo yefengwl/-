@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 980px;
+    margin: 15px auto 0;
+    height: 60px;
+    position: relative;
+}
+header p{
+    padding-top: 20px;
+}
+header p:nth-of-type(1) img{
+    width: 137px;
+    vertical-align: middle;
+}
+header p:nth-of-type(1) span{
+    display: inline-block;
+    font-size: 20px;
+    color: #777;
+    border-left: 1px solid #c9c9c9;
+    padding-left: 18px;
+    margin-left: 14px;
+    height: 24px;
+}
+header p:nth-of-type(2){
+    color: #666;
+    height: 33px;
+    line-height: 33px;
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+    font-size: 12px;
+}
+header p:nth-of-type(2) a{
+    display: inline-block;
+    border: 1px solid #dddddd;
+    background-color: #f7f7f7;
+    color: #666;
+    border-radius: 3px;
+    padding: 0 18px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+.reg_hr{
+    background: url(../img/reg_hr.png)no-repeat center top;
+    height: 20px;
+}
+main{
+    width: 980px;
+    margin: 0 auto;
+}
+main .reg-step-tit{
+    height: 60px;
+    position: relative;
+    margin: 40px 0 40px 300px;
+}
+main .reg-step-line{
+    width: 400px;
+    height: 2px;
+    background-color: #ccc;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 0;
+}
+main .reg-step-tit li{
+    background: url(../img/icon-register.png)no-repeat 0px -245px;
+    float: left;
+    width: 80px;
+    height: 60px;
+    position: relative;
+    margin-right: 90px;
+}
+main .reg-step-tit li:nth-of-type(1){
+    background-position: 0px -184px;
+}
+.reg-step-tit li span{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+.reg-step-tit li:nth-of-type(1) span{
+    background: url(../img/icon-register.png)no-repeat;
+}
+.reg-step-tit li:nth-of-type(2) span{
+    background: url(../img/icon-register.png)no-repeat 0 -61px;
+}
+.reg-step-tit li:nth-of-type(3) span{
+    background: url(../img/icon-register.png)no-repeat 0 -122px;
+}
+.reg-step{
+    margin-left: 210px;
+}
+main .reg-step:nth-of-type(1){
+    display: none;
+}
+.reg-step p:nth-of-type(1){
+    line-height: 40px;
+    height: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    clear: left;
+    font-size: 14px;
+    color: #777;
+    overflow: hidden;
+    margin-left: 26px;
+}
+.reg-step p{
+    line-height: 40px;
+    height: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    clear: left;
+    font-size: 14px;
+    color: #777;
+    overflow: hidden;
+}
+.reg-step p:nth-of-type(1) span{
+    font-size: 12px;
+    position: absolute;
+    left: 70px;
+    top: 40px;
+    line-height: 30px;
+}
+.reg-step label{
+    width: 85px;
+    text-align: right;
+    margin-right: 20px;
+}
+.reg-step input{
+    border: 1px solid #ddd;
+    padding: 12px 10px;
+    width: 330px;
+    font-size: 14px;
+    margin-right: 20px;
+    vertical-align: middle;
+    margin-left: 0;
+
+}
+.reg-step input:focus{
+    outline: 1px solid #b3aeae;
+}
+.reg-step p:nth-of-type(2) input{
+    width: 200px;
+    float: none;
+}
+.reg-step p:nth-of-type(2) img{
+    width: 110px;
+    height: 40px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.reg-step p:nth-of-type(3) input{
+    width: 200px;
+    float: none;
+}
+.reg-step p:nth-of-type(3) span{
+    background-color: #a5232e;
+    color: #fff;
+    font-size: 14px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1px 10px;
+    width: 83px;
+}
+.reg-step>a{
+    background-color: #a5232e;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 100px;
+    width: 350px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+    position: relative;
+}
+.reg-step p:nth-of-type(4){
+    padding-left: 100px;
+    width: 350px;
+    line-height: 22px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.reg-step p:nth-of-type(4) input{
+    width: 20px;
+    margin-right: 5px;
+}
+.reg-step p:nth-of-type(4) label{
+    width: 85px;
+    text-align: right;
+    margin-right: 20px;
+}
+.reg-step p:nth-of-type(4) a{
+    color: #A11313;
+}

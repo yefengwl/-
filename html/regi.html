@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>注册</title>
+        <link rel="stylesheet" href="../css/regi.css">
+    </head>
+    <body>
+        <header>
+            <p>
+                <a href="">
+                    <img src="../img/logo.png" alt="">
+                </a>
+                <span>
+                    手机号注册
+                </span>
+            </p>
+            <p>
+                我已注册，现在就
+                <a href="login.html">登录</a>
+            </p>
+        </header>
+        <div class="reg_hr"></div>
+        <main>
+            <div class="reg-step-tit">
+                <div class="reg-step-line"></div>
+                <ul>
+                    <li>
+                        <span></span>
+                    </li>
+                    <li>
+                        <span></span>
+                    </li>
+                    <li>
+                        <span></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="reg-step" >
+                <p>
+                    <label for="">手机号</label>
+                    <input type="text" name="telphone" maxlength="11">
+                    <span>仅支持中国大陆手机号码</span>
+                </p>
+                <p>
+                    <label for="">图片验证码</label>
+                    <input type="text" name="regyzm">
+                    <img src="../img/passimg" alt="">
+                </p>
+                <p>
+                    <label for="">短信验证码</label>
+                    <input type="text" name="msgyzm" readonly="readonly">
+                    <span>发送验证码</span>
+                </p>
+                <a href="">下一步</a>
+                <p>
+                    <input type="checkbox" class="check-input" checked="checked">
+                    <label for="">
+                        注册账号即代表您已同意并接收
+                        <a href="">《幻想纵横用户服务协议》</a>
+                        <a href="">《法律声明》</a>
+                    </label>
+                </p>
+            </div>
+            <!-- <div class="reg-step">
+                <p>
+                    <label for="regpassword">设置登录密码</label>
+                    <input type="password" name="newpassword" maxlength="16">
+                    <span>6-16位数字、字母（区分大小写）、非空格符号组成</span>
+                </p>
+                <p>
+                    <label for="regpassword2">再次确认密码</label>
+                    <input type="password" name="newpassword" maxlength="16">
+                </p>
+                <p>
+                    <label for="regnickname">设置用户昵称</label>
+                    <input type="text" name="nickname" maxlength="12">
+                </p>
+                <a href="">下一步</a> -->
+            </div>
+        </main>
+    </body>
+</html>
